@@ -15,7 +15,9 @@ Disposisjon
 
 [3. Gevinst og kostnad](#/gev)
 
-[4. Eksisterende løsninger: muligheter og begrensninger](#/eks) 
+[4. Eksisterende løsninger: muligheter og begrensninger](#/eks)
+
+[5. Videre diskusjon](#/vid)
 
 
 1 Overordnet formål
@@ -60,8 +62,8 @@ type: sub-section
 |Målgruppe       |Behov|
 |:---------------|:----|
 |Registerarbeider|Grunnlagsdata fra enkeltregister|
-|Forsker         |Grunnlagsdata fra enkeltregister og sammenstilling på tvers av registre|
-|Næringsliv      |Kommersiell utnyttelse av helsedata|
+|Forsker         |Grunnlagsdata fra enkeltregister og sammenstilling (av grunnlagsdata) på tvers av registre|
+|Næringsliv      |Kommersiell utnyttelse basert på sammenstillinger fra enkeltregister og på tvers av registre|
 |Innbygger mfl   |Ferdige resultater fra enkeltregister (og sammenstilling på tvers av registre)|
 
 
@@ -102,6 +104,15 @@ type: sub-section
 |:------|:------|
 |Pasient gis grunnlag for informert *valg av helsetjenester*|Krever data fra kvalitetsregistre, krever "streng" disiplin på innregistrering (god dekningsgrad), krever betydelige ressurser på analyse av grunnlagsdata, eksponering av helseopplysninger er "krevende" teknisk og juridisk|
 |Forsker gis grunnlag for *kunnskapsproduksjon*|Eksponering av helse/pseudonyme opplysninger kan være "krevende" teknisk og juridisk, forvaltning av tidsbegrenset tilgang til data (tilbakekalling) må kunne håndteres, sammenstilling av data fra flere registre er sårbar for "svakeste ledd"|
+_tabellen fortsetter på neste side_
+
+
+3 Gevins og kostnad, forts.
+========================================================
+type: sub-section
+
+|Gevinst|Kostnad|
+|:------|:------|
 |Næringsliv gis grunnlag for *forretningsutvikling*|Krever tilstrekkelig ressurser på analyse av grunnlagsdata, krever (muligens) "holdningsendring" mtp mer åpenhet og verdien av kommersiell utnyttelse av helsedata| 
 |Innbygger mfl gis grunnlag for *generell informasjon*|Krever tilstrekkelig ressurser på analyse av grunnlagsdata|
 
@@ -130,3 +141,17 @@ type: sub-section
 |KREMT                      |Basert på R(Shiny), potensielt interaktiv analysekapasitet?|
 |Rapporteket                |Basert på Jasper Report Server og R, interaktiv analysekapasitet|
 |MRS-R                      |Primært for registerdata fra MRS for presentasjon av kvalitetsindikatorer, basert på MS Power BI, tilbyr interaktiv analysekapasitet gjennom lokal klient, under utvikling per oktober 2016|
+
+
+5 Videre diskusjon
+=========================================================
+id: vid
+type: sub-section
+incremental: true
+
+
+- Bør _interaktiv analysekapasitet_ være en del av tjenesten ?
+
+- Gitt stor forskjell mellom registrene; innen hvilke tema (_e.g._ grunnlagsdata, kobling, kryptering, analyse, presentasjon) vil det være vanskelig å etablere felles, nasjonale tjenester?
+
+- I beskrivelsen av systemet (referansearkitekturen), hvilke tema er viktigst (ut fra antatt gevinst, hva bør prioriteres)?
