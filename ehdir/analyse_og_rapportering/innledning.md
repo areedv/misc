@@ -23,7 +23,9 @@ Disposisjon
 id: for
 type: sub-section
 
-Å kunne levere tilgang til data/informasjon på ulike nivå, det vil si i spennet fra grunnlagsdata til aggregerte, ferdig analyserte resultater, til ulike målgrupper (se [2 Målgrupper og behov](#/mal) under). I nivå som omhandler aggregering og analyse av data så kan også tjenesten levere dette interaktivt, altså at brukere selv kan plukke, sammenstille og behandle individuelle variabler som analyseres og visualiseres/presenteres av tjenesten.
+Å kunne levere tilgang til informasjon på ulike nivå (_e.g._ fra grunnlagsdata til sammenstillinger) og ferdig analyserte resultater til ulike [målgrupper](#/mal).
+
+For sammenstillinger og analyse av data kan tjenesten levere dette interaktivt (interaktiv analysekapasitet), altså at brukere selv kan plukke, sammenstille og behandle individuelle variabler som analyseres og visualiseres/presenteres av tjenesten.
 
 
 1 a) Utfordringer ved interaktivitet og selvbetjening
@@ -34,6 +36,7 @@ Omfattende krav til
 - dokumentasjon,
 - styring (governance) og
 - faglig kunnskap om grunnlagsdata
+- NB registrenes natur og manglende reproduserbarhet
 
 
 2 Målgrupper og behov
@@ -52,12 +55,13 @@ _tabellen fortsetter på neste side_
 
 2 Målgrupper og behov, forts.
 ========================================================
+type: sub-section
 
 |Målgruppe       |Behov|
 |:---------------|:----|
 |Registerarbeider|Grunnlagsdata fra enkeltregister|
 |Forsker         |Grunnlagsdata fra enkeltregister og sammenstilling på tvers av registre|
-|Næringsliv      ||
+|Næringsliv      |Kommersiell utnyttelse av helsedata|
 |Innbygger mfl   |Ferdige resultater fra enkeltregister (og sammenstilling på tvers av registre)|
 
 
@@ -92,12 +96,13 @@ _tabellen fortsetter på neste side_
 
 3 Gevins og kostnad, forts.
 ========================================================
+type: sub-section
 
 |Gevinst|Kostnad|
 |:------|:------|
 |Pasient gis grunnlag for informert *valg av helsetjenester*|Krever data fra kvalitetsregistre, krever "streng" disiplin på innregistrering (god dekningsgrad), krever betydelige ressurser på analyse av grunnlagsdata, eksponering av helseopplysninger er "krevende" teknisk og juridisk|
 |Forsker gis grunnlag for *kunnskapsproduksjon*|Eksponering av helse/pseudonyme opplysninger kan være "krevende" teknisk og juridisk, forvaltning av tidsbegrenset tilgang til data (tilbakekalling) må kunne håndteres, sammenstilling av data fra flere registre er sårbar for "svakeste ledd"|
-|Næringsliv gis grunnlag for *forretningsutvikling*|Krever tilstrekkelig ressurser på analyse av grunnlagsdata, krever (muligens) "holdningsendring" mtp åpenhet og kommersiell utnyttelse av helsedata| 
+|Næringsliv gis grunnlag for *forretningsutvikling*|Krever tilstrekkelig ressurser på analyse av grunnlagsdata, krever (muligens) "holdningsendring" mtp mer åpenhet og verdien av kommersiell utnyttelse av helsedata| 
 |Innbygger mfl gis grunnlag for *generell informasjon*|Krever tilstrekkelig ressurser på analyse av grunnlagsdata|
 
 
@@ -118,9 +123,10 @@ _tabellen fortsetter på neste side_
 
 4 Eksisterende løsninger: muligheter og begrensninger, forts.
 ========================================================
+type: sub-section
 
 |Løsning                    |Mulighet/Begrensning|
 |:--------------------------|:-------------------|
-|KREMT                      |Basert på R(Shiny), interaktiv analysekapasitet|
+|KREMT                      |Basert på R(Shiny), potensielt interaktiv analysekapasitet?|
 |Rapporteket                |Basert på Jasper Report Server og R, interaktiv analysekapasitet|
 |MRS-R                      |Primært for registerdata fra MRS for presentasjon av kvalitetsindikatorer, basert på MS Power BI, tilbyr interaktiv analysekapasitet gjennom lokal klient, under utvikling per oktober 2016|
