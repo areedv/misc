@@ -1,0 +1,67 @@
+---
+title: Grenseflate mellom pågående utviklingsprosjekter hos kvalitetsregistrene, utvikling av plattform for helsedata og det nye programmet for fellesløsninger -- innspill fra SKDE
+author: "Are Edvardsen, SKDE"
+date: "November 7, 2016"
+output:
+  slidy_presentation:
+    incremental: true
+---
+
+# Innledning
+
+- Møte i arbeidsutvalget for Nasjonalt helseregisterprosjekt 8. november 2016, Hotel Continental, Oslo
+- Overlevering til direktoratet for e-helse (NHRP -> Program for fellesløsninger nasjonale helseregistre)
+- Gi status for arbeidet med nasjonale kvalitetsregistre
+- Hovedsaklig knyttet til teknologi, men ofte overlappende med ikke-teknologisk aktivitet
+- Alle tema er nødvendigivs ikke under utvikling eller tydelig tidsavgrenset ("utviklingsprosjekter")
+- Strukturert etter målsettingene i siste statusrapport fra "referansearkitekturprosjektet" (ehdir)
+
+
+# Harmonisere registrenes tekniske løsninger, standarder, variabler, kodeverk og terminologi for å øke interoperabiliteten
+
+- Kartlegging av alle variabler i alle nasjonale kvalitetsregistre (variabelbiblioteket) er gjort tilgjengelig gjennom arketyper.no (clinical knowledge manager)
+- Deltagelse i høringer for (etablering av) norske arketyper
+- Etablering av (tekniske) fellestjenester som kan benyttes av de nasjonale registrene som har godkjent teknisk løsning (programvare for datafangst)
+- Etablering av dynamisk/automatisert variabelbeskrivelse (kodebok) for registre med godkjent teknisk løsning
+
+
+# Bedre personvernet og styrke pasientrollen ved å gi innbyggerne bedre oversikt og kontroll over egne opplysninger
+
+- Etablert og utstrakt samarbeid med Datatilsynet og personvernombud i helseforetakene
+- Fellestjeneste der pasientene selv kan registrere data i kvalitetsregistrene er under etablering
+- Ennå ingen fellestjenester der pasientene kan se (egne) registrerte opplysninger eller hvem som har hatt tilgang til disse (fra aktivitetslogg)
+- Pågående samarbeid med helsenorge.no vedrørende etablering av personverntjenester
+
+
+# Tilby rikere integrasjonstjenester og automatisert innrapportering for å redusere rapporteringsbyrden for behandlere
+
+- Noen nasjonale registre har punkt-til-punkt integrasjon mot enkelte fagsystemer/journaler
+- Kvalitetsregistre under Kreftregisteret er "utypiske" i den forstand at de i større grad automatiserer datafangst fra fagsystemer (_e.g._ patologi, radiologi) og andre registre (_e.g._ NPR, DÅR)
+- FMK NIKT innleder et arbeid mot en beskrivelse av generiske grenseflater for integrasjon mot godkjente tekniske løsninger (programvare for datafangst)
+
+
+#Tilby bedre analysemuligheter og analyseverktøy
+
+- Godkjente tekniske løsninger (programvare for datafangst) tilbyr som regel eksport (dump) av rådata for lokal videreforedling
+- Rapporteket tilbyr et bredt spekter av interaktiv rapportering, analyse og presentasjon av resultater blant annet basert på statistikkverktøyet R
+- KREMT tilbyr interaktiv rapportering og presentasjon av resultater fra kvalitetsregistre under Kreftregisteret basert på statistikkverktøyet R
+- MRS-R er under etablering og skal tilby etablering og presentsjon av kvalitetsindikatorer
+- Kompetanse på analyse er en knapphetsressurs for mange registre
+
+
+# Forenkle tilgang for forskere og andre
+
+- Blant alle målgrupper for bruk av data (og resultater) fra registrene er *forskere* i en særstilling da de trenger detaljert (sensitiv) informasjon
+- Detaljerte data (rådata) fra registrene er kun tilgjengelig gjennom registerspesifikk eksport (dump) eller Rapporteket og er i praksis begrenset til innloggede brukere med tilgang til helsenettet
+- KREMT er den eneste løsningen som per oktober 2016 kan levere dynamiske rapporter og resultater "åpent" basert på oppdaterte, anonyme data
+
+
+# Redusere datafragmentering og bidra til høyere datakvalitet og dekningsgrad
+
+- Mange nasjonale kvalitetsregistre får data via HF-interne (lokale) kvalitetsregistre
+- Datafragmentering er betydelig for de registre som er basert på datafangst gjennom HF-interne (lokale) kvalitetsregistre
+- For mange registre er det stor overlapp mellom eget informasjonsgrunnlag og opplysninger i journal noe som også bidrar til datafragmentering
+- De tre godkjente tekniske løsningene (programvare for datafangst) gir alle utstrakt mulighet for logisk kontroll/kvalitetssikring ved manuelt registrering av enkeltvariabler
+- Registrene benytter som regel en streng validering ved manuell registrering av variabler noe som bidrar til god datakvalitet
+- Valideringsregimet for variabler i kvalitetsregistrene er som regel strengere enn for tilsvarende variabler i journal/fagsystem noe som gir utfordringer i automatisert overføring/datafangs fra journalsystem til registrene 
+- Interaktiv fremstilling av detaljerte data i registrene er et egnet verktøy for evaluering av datakvalitet (særlig på tvers av variabler) og for kvalitetsregistrene er Rapporteket per idag den eneste resultattjenesten som tilbyr denne muligheten som en fellestjeneste
