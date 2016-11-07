@@ -1,7 +1,10 @@
+---
+output: pdf_document
+---
 Tjenesten “analyse og rapportering”: innledning
 ========================================================
-author: Are, Nils, Tore
-date: Sist oppdatert 19. oktober 2016
+author: Are, Nils, Thore
+date: Sist oppdatert  1. november 2016
 
 Møte i referansearkitekturgruppen, ehdir torsdag 20. oktober 2016
 
@@ -52,6 +55,7 @@ type: sub-section
 |Helseleder      |Ferdige resultater fra enkeltregister og sammenstilling på tvers av registre|
 |Myndighet       |Ferdige resultater fra enkeltregister og sammenstilling på tvers av registre|
 |Pasient         |Ferdige resultater og grunnlagsdata (egne helseopplysninger) fra enkeltregister, ev også sammenstilling på tvers av registre (eksempelvis samtykke)|
+
 _tabellen fortsetter på neste side_
 
 
@@ -93,6 +97,7 @@ type: sub-section
 |Helsearbeider gis grunnlag for *kvalitetsforbedring*|Krever data fra kvalitetsregistre, krever "streng" disiplin på innregistrering (god dekningsgrad), krever betydelige ressurser på analyse av grunnlagsdata|
 |Helseleder gis grunnlag for *styring og kvalitetsforbedring*|Krever "streng" disiplin på innregistrering (god dekningsgrad), krever tilstrekkelig ressurser på analyse av grunnlagsdata, analyse med data fra flere registre er sårbar for "svakeste ledd"|
 |Myndighet gis grunnlag for *prioritering*|Krever "streng" disiplin på innregistrering (god dekningsgrad), krever tilstrekkelig ressurser på analyse av grunnlagsdata, analyse med data fra flere registre er sårbar for "svakeste ledd"|
+
 _tabellen fortsetter på neste side_
 
 
@@ -104,6 +109,7 @@ type: sub-section
 |:------|:------|
 |Pasient gis grunnlag for informert *valg av helsetjenester*|Krever data fra kvalitetsregistre, krever "streng" disiplin på innregistrering (god dekningsgrad), krever betydelige ressurser på analyse av grunnlagsdata, eksponering av helseopplysninger er "krevende" teknisk og juridisk|
 |Forsker gis grunnlag for *kunnskapsproduksjon*|Eksponering av helse/pseudonyme opplysninger kan være "krevende" teknisk og juridisk, forvaltning av tidsbegrenset tilgang til data (tilbakekalling) må kunne håndteres, sammenstilling av data fra flere registre er sårbar for "svakeste ledd"|
+
 _tabellen fortsetter på neste side_
 
 
@@ -129,6 +135,7 @@ type: sub-section
 |HDir kvalitetsindikatorer  |Enkel fremstilling, liten/ingen (interaktiv) analysekapasitet, pt ikke skalerbar men omarbeides|
 |HDir Dundas                |?|
 |HDir NPR                   |Benytter/skal benytte Dundas?|
+
 _tabellen fortsetter på neste side_
 
 
