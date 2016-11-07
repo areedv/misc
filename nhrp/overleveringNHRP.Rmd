@@ -10,9 +10,9 @@ output:
 # Innledning
 
 - Møte i arbeidsutvalget for Nasjonalt helseregisterprosjekt 8. november 2016, Hotel Continental, Oslo
-- Overlevering til direktoratet for e-helse (NHRP -> Program for fellesløsninger nasjonale helseregistre)
+- Overlevering til Direktoratet for e-helse (NHRP -> Program for fellesløsninger nasjonale helseregistre)
 - Gi status for arbeidet med nasjonale kvalitetsregistre
-- Hovedsaklig knyttet til teknologi, men ofte overlappende med ikke-teknologisk aktivitet
+- Hovedsaklig knyttet til teknologi, men også ofte overlappende med annen aktivitet
 - Alle tema er nødvendigivs ikke under utvikling eller tydelig tidsavgrenset ("utviklingsprosjekter")
 - Strukturert etter målsettingene i siste statusrapport fra "referansearkitekturprosjektet" (ehdir)
 
@@ -42,7 +42,7 @@ output:
 
 #Tilby bedre analysemuligheter og analyseverktøy
 
-- Godkjente tekniske løsninger (programvare for datafangst) tilbyr som regel eksport (dump) av rådata for lokal videreforedling
+- Godkjente tekniske løsninger (programvare for datafangst) tilbyr som regel eksport (dump) av rådata for lokal "videreforedling"
 - Rapporteket tilbyr et bredt spekter av interaktiv rapportering, analyse og presentasjon av resultater blant annet basert på statistikkverktøyet R
 - KREMT tilbyr interaktiv rapportering og presentasjon av resultater fra kvalitetsregistre under Kreftregisteret basert på statistikkverktøyet R
 - MRS-R er under etablering og skal tilby etablering og presentsjon av kvalitetsindikatorer
@@ -51,7 +51,7 @@ output:
 
 # Forenkle tilgang for forskere og andre
 
-- Blant alle målgrupper for bruk av data (og resultater) fra registrene er *forskere* i en særstilling da de trenger detaljert (sensitiv) informasjon
+- Blant alle målgrupper for bruk av data (og resultater) fra registrene er *forskere* i en særstilling da behovet typisk omfatter detaljert (sensitiv) informasjon
 - Detaljerte data (rådata) fra registrene er kun tilgjengelig gjennom registerspesifikk eksport (dump) eller Rapporteket og er i praksis begrenset til innloggede brukere med tilgang til helsenettet
 - KREMT er den eneste løsningen som per oktober 2016 kan levere dynamiske rapporter og resultater "åpent" basert på oppdaterte, anonyme data
 
@@ -63,5 +63,5 @@ output:
 - For mange registre er det stor overlapp mellom eget informasjonsgrunnlag og opplysninger i journal noe som også bidrar til datafragmentering
 - De tre godkjente tekniske løsningene (programvare for datafangst) gir alle utstrakt mulighet for logisk kontroll/kvalitetssikring ved manuelt registrering av enkeltvariabler
 - Registrene benytter som regel en streng validering ved manuell registrering av variabler noe som bidrar til god datakvalitet
-- Valideringsregimet for variabler i kvalitetsregistrene er som regel strengere enn for tilsvarende variabler i journal/fagsystem noe som gir utfordringer i automatisert overføring/datafangs fra journalsystem til registrene 
-- Interaktiv fremstilling av detaljerte data i registrene er et egnet verktøy for evaluering av datakvalitet (særlig på tvers av variabler) og for kvalitetsregistrene er Rapporteket per idag den eneste resultattjenesten som tilbyr denne muligheten som en fellestjeneste
+- Valideringsregimet for variabler i kvalitetsregistrene er som regel strengere enn for tilsvarende variabler i journal/fagsystem noe som gir utfordringer i automatisert overføring/datafangs fra journalsystemer til registrene 
+- Interaktiv sammenstilling og presentasjon av detaljerte data i registrene er et egnet verktøy for evaluering av datakvalitet (særlig på tvers av variabler) og for kvalitetsregistrene er Rapporteket per idag den eneste resultattjenesten som tilbyr denne muligheten som en sentralisert tjeneste
