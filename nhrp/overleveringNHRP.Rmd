@@ -13,7 +13,7 @@ output:
 - Overlevering til Direktoratet for e-helse (NHRP -> Program for fellesløsninger nasjonale helseregistre)
 - Gi status for arbeidet med nasjonale kvalitetsregistre
 - Hovedsaklig knyttet til teknologi, men også ofte overlappende med annen aktivitet
-- Alle tema er nødvendigivs ikke under utvikling eller tydelig tidsavgrenset ("utviklingsprosjekter")
+- Alle tema er nødvendigvis ikke under utvikling eller tydelig tidsavgrenset ("utviklingsprosjekter")
 - Strukturert etter målsettingene i siste statusrapport fra "referansearkitekturprosjektet" (ehdir)
 
 
@@ -40,12 +40,12 @@ output:
 - FMK NIKT innleder et arbeid mot en beskrivelse av generiske grenseflater for integrasjon mot godkjente tekniske løsninger (programvare for datafangst)
 
 
-#Tilby bedre analysemuligheter og analyseverktøy
+# Tilby bedre analysemuligheter og analyseverktøy
 
 - Godkjente tekniske løsninger (programvare for datafangst) tilbyr som regel eksport (dump) av rådata for lokal "videreforedling"
 - Rapporteket tilbyr et bredt spekter av interaktiv rapportering, analyse og presentasjon av resultater blant annet basert på statistikkverktøyet R
 - KREMT tilbyr interaktiv rapportering og presentasjon av resultater fra kvalitetsregistre under Kreftregisteret basert på statistikkverktøyet R
-- MRS-R er under etablering og skal tilby etablering og presentsjon av kvalitetsindikatorer
+- MRS-R er under etablering og skal tilby etablering og presentasjon av kvalitetsindikatorer
 - Kompetanse på analyse er en knapphetsressurs for mange registre
 
 
@@ -63,5 +63,5 @@ output:
 - For mange registre er det stor overlapp mellom eget informasjonsgrunnlag og opplysninger i journal noe som også bidrar til datafragmentering
 - De tre godkjente tekniske løsningene (programvare for datafangst) gir alle utstrakt mulighet for logisk kontroll/kvalitetssikring ved manuelt registrering av enkeltvariabler
 - Registrene benytter som regel en streng validering ved manuell registrering av variabler noe som bidrar til god datakvalitet
-- Valideringsregimet for variabler i kvalitetsregistrene er som regel strengere enn for tilsvarende variabler i journal/fagsystem noe som gir utfordringer i automatisert overføring/datafangs fra journalsystemer til registrene 
+- Valideringsregimet for variabler i kvalitetsregistrene er som regel strengere enn for tilsvarende variabler i journal/fagsystem noe som gir utfordringer i automatisert overføring/datafangst fra journalsystemer til registrene 
 - Interaktiv sammenstilling og presentasjon av detaljerte data i registrene er et egnet verktøy for evaluering av datakvalitet (særlig på tvers av variabler) og for kvalitetsregistrene er Rapporteket per idag den eneste resultattjenesten som tilbyr denne muligheten som en sentralisert tjeneste
