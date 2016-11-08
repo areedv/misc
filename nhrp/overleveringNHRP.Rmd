@@ -10,10 +10,10 @@ output:
 # Innledning
 
 - Møte i arbeidsutvalget for Nasjonalt helseregisterprosjekt 8. november 2016, Hotel Continental, Oslo
-- Overlevering til Direktoratet for e-helse (NHRP -> Program for fellesløsninger nasjonale helseregistre)
+- Tema: overlevering til Direktoratet for e-helse (NHRP -> Program for fellesløsninger nasjonale helseregistre)
 - Gi status for arbeidet med nasjonale kvalitetsregistre
-- Hovedsaklig knyttet til teknologi, men også ofte overlappende med annen aktivitet
-- Alle tema er nødvendigvis ikke under utvikling eller tydelig tidsavgrenset ("utviklingsprosjekter")
+- Hovedsaklig om teknologi, men også overlappende med andre "fag"
+- Aktivitet som beskrives her er ikke nødvendigvis under utvikling og/eller tydelig tidsavgrenset ("utviklingsprosjekter")
 - Strukturert etter målsettingene i siste statusrapport fra "referansearkitekturprosjektet" (ehdir)
 
 
@@ -29,7 +29,7 @@ output:
 
 - Etablert og utstrakt samarbeid med Datatilsynet og personvernombud i helseforetakene
 - Fellestjeneste der pasientene selv kan registrere data i kvalitetsregistrene er under etablering
-- Ennå ingen fellestjenester der pasientene kan se (egne) registrerte opplysninger eller hvem som har hatt tilgang til disse (fra aktivitetslogg)
+- Ennå ingen fellestjenester der pasienten kan se registrerte opplysninger (om seg selv) eller hvem som har hatt tilgang til disse (fra aktivitetslogg)
 - Pågående samarbeid med helsenorge.no vedrørende etablering av personverntjenester
 
 
@@ -46,7 +46,7 @@ output:
 - Rapporteket tilbyr et bredt spekter av interaktiv rapportering, analyse og presentasjon av resultater blant annet basert på statistikkverktøyet R
 - KREMT tilbyr interaktiv rapportering og presentasjon av resultater fra kvalitetsregistre under Kreftregisteret basert på statistikkverktøyet R
 - MRS-R er under etablering og skal tilby etablering og presentasjon av kvalitetsindikatorer
-- Kompetanse på analyse er en knapphetsressurs for mange registre
+- Lav analysekapasitet er en begrensning for mange registre
 
 
 # Forenkle tilgang for forskere og andre
