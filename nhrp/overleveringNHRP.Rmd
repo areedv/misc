@@ -1,10 +1,14 @@
 ---
-title: Grenseflate mellom pågående utviklingsprosjekter hos kvalitetsregistrene, utvikling av plattform for helsedata og det nye programmet for fellesløsninger -- innspill fra SKDE
+title: Grenseflate mellom pågående utviklingsprosjekter hos kvalitetsregistrene, utvikling
+  av plattform for helsedata og det nye programmet for fellesløsninger -- innspill
+  fra SKDE
 author: "Are Edvardsen, SKDE"
 date: "November 8, 2016"
 output:
+  beamer_presentation:
+    incremental: yes
   slidy_presentation:
-    incremental: true
+    incremental: yes
 ---
 
 # Innledning
