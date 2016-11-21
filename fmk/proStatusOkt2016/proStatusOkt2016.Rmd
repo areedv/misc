@@ -3,13 +3,16 @@ title: "Status forbrukte midler - Helse Nord"
 author: "Are Edvardsen, SKDE"
 date: "November 22, 2016"
 output:
-  slidy_presentation:
+  beamer_presentation:
     incremental: no
   ioslides_presentation:
     incremental: no
-  beamer_presentation:
+  slidy_presentation:
     incremental: no
 ---
+# Oppdatert versjon
+
+Siste versjon av dokumentet finner -> [her](http://rpubs.com/biorakel/proStatusOkt2016)
 
 # Innledning
 
