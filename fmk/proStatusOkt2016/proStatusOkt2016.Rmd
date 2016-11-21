@@ -1,0 +1,39 @@
+---
+title: "Status forbrukte midler - Helse Nord"
+author: "Are Edvardsen, SKDE"
+date: "November 22, 2016"
+output:
+  slidy_presentation:
+    incremental: no
+  ioslides_presentation:
+    incremental: no
+  beamer_presentation:
+    incremental: no
+---
+
+# Innledning
+
+Status til og med oktober 2016 for
+
+- tildeling og
+- forbruk
+
+for alle HNIKT-prosjekter som har fått fianansiering fra FMK NIKT
+
+
+
+# Oversikt
+
+|Navn søknad/prosjekt|Tildeling|Forbruk|Kommentar|
+|:---|---:|---:|:---|
+|Conan - the librarian|200 000|0||
+|NNRR|150 000|45 455|Brukt 2015: 104 535|
+|NORSPIS|250 000|250 000||
+|OpenQReg plattformen|130 000|130 000||
+|Rapporteket|105 000|105 000||
+|OpenQReg felles PROM|100 000|443||
+|Videreutv. Rapporteket|373 000|310 095||
+|MRS-Rapporteket int.|250 000|254 438|Etterbetalt av  FMK|
+|Teknisk løft (ETL)|321 375|4 868||
+|NorVas|250 000|-|Tildelt nov 2017|
+|Variabelreg. OQR|-|-|Under behandling|
