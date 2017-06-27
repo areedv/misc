@@ -1,0 +1,47 @@
+---
+title: 'NOTAT: om datafangst hos nasjonale medisinske kvalitetsregistre gjennom journal/fagsystemer'
+author: "Are Edvardsen, SKDE"
+date: "23 mai, 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Bakgrunn
+I *Nasjonalt servicemiljø for medisinske kvalitetsregistre* medregnet styringsgrupper, fagråd og andre utvalg synes det å eksistere en felles forståelse av- og et ønske om at datafangst primært skal skje der informasjonen oppstår. I stor grad dreier det da seg om de fagsystemer som helsearbeidere benytter behandling av pasienter. Ved å sørge for automatisert flyt av elektronisk informasjon mellom fagsystem og register vil man kunne oppnå en rekke fordeler blant annet god aktualitet og integritet data i registrene samt at det vil være arbeidsbesparende da man slipper å registere samme opplysning flere ganger. Med andre ord så representerer en slik tilnærming til datafangst en ønkset målbilde som få eller ingen er uenige i.
+
+## Problem
+Når alle er så hjertens enige om målet så er det også naturlig at større eller mindre tiltak mot datafangst gjennom fagsystemer helt eller delvis i det daglige forsøkes innarbeidet der det er mulig. Siden målsetningen i seg selv ikke er omstridt så vil motivasjonen for kritisk vurdering i hvert enkelt tilfelle antaksvis være lavere. Av samme årsak er det da en fare for at kritisk vurdering av sammenhenger/avhengigheter og strategi blir mangelfull også på ledelses- og styringsnivå. En slik situasjon representerer en risko for at beslutninger som er tatt og arbeid som er gjort gir mindre gevinst fordi man ikke i tilstrekkelig grad vurderer og kartlegger helheten i forkant.
+
+## Utfordringer og mulige tiltak
+I det følgende gis det en kort beskrivelse av noen "kjente" utfordringer og hvilke tiltak som kan være aktuelle. Av hensyn til lesbarhet er detaljeringsgraden begrenset og det kan hende at andre tema/fagfelt enn de som er gitt under også vil være relevant å vurdere.
+
+### Teknologi
+Her er det snakk om å ivareta flyt av elektronisk informasjon mellom fagsystem og register. Slike tiltak krever tiltak/endringer på begge sider og det betyr som regel at det vil være flere programvareleverandører involvert i oppgaven. Flyten må kunne skje begge veier, altså ikke bare fra fagsystem til register. Fungerende "tilbakekobling" er nødvendig særlig for å ivareta integritet i data eksempelvis når eksiterende informasjon blir oppdatert/endret på den ene siden så må endringenen også kunne tilgjengeliggjøres for den andre. Et annet eksempel vil være behovet for å håndterer situasjoner der informasjon fra et fagsystem ikke møter krav til datakvalitet i motsvarene register. Det vil videre være en stor gevinst mtp kostnader ved implementering og sannsynlighet for at feil ved å kunne håndtere slike sammenkoblinger (integrasjoner) likt på tvers av registre. Herunder ligger det også en forventning av å kunne benytte felles standarder for form og innhold i de data som utveksles for at maskiner skal kunne "snakke sammen" slik at prosessene i størs mulig grad kan automastiseres.
+
+Denne type arbeid er delvis gjort for noen registre, men slike sammenkoblinger representerer ofte en "enveis" flyt av data fra fagsystem til register, de er gjerne preget av manuelle prosesser og sammekoblingen som benyttes er svært spesifikk for et gitt fagsystem/registerplattform noe som begrenser "gjenbruksverdien".
+
+Et annet aspekt ved dette er at de ulike "endene" i en slik sammenkobling ikke er plassert innen én og samme organisasjon. For de nasjonale medisinske kvalitetsregistrene vil leveranse av programvare i hovedsak komme fra tre "godkjente" leverandører og teknisk drift av programvaren skjer hos Norsk Helsenett. Alle disse aktørene sorterer under "helsevesenet" og man har en rimelig mulighet for praktisk koordinasjon, rolleavklaring og finansiering av disse eksempelvis gjennom interregional styringsgruppe og FMK i NIKT HF. I den andre enden av integrasjonen står det et potensielt stort antall ulike fagsystemer med tilhørende eksterne og kommersielle leverandører som man også er nødt til å forholde seg til når det må gjøres programvareendringer for å etablere nødvendige integrasjoner. Videre så vil teknisk drifts av aktuelle fagsystemer skje hos sykehusenes egne dritsleverandører og i den grad man er avhengig av slike integarsjoner for fungerende nasjonale registre så er man følgelig prisgitt den "driftsstabilitet" som disse driftsleverandørene kan tilby.
+
+Dette har også orgasnisatoriske og finansieringsmessige konsekvenser som er nærmere beskrevet under.
+
+> *Mulige tiltak:*
+> aødkfaøsfk
+
+
+### Organisasjon
+
+> *Mulige tiltak:*
+> aødkfaøsfk
+
+
+### Finansiering
+
+> *Mulige tiltak:*
+> aødkfaøsfk
+
+
+## Konklusjon
+Å oppnå et velfungerende samvirke mellom nasjonale medisinske kvalitesregistre og de fagsystemer som benyttes i pasientbehandling vil kreve betydelige ressurser innen etablering av relevant teknologi og nødvendig samhandling mellom aktører i adskilte organisasjoner. De kostnader arbeidet innebærer vil etter all sannsynlighet være betydelig større enn de midler den nasjonale kvalitetsregistersatsngen idag disponener. Hvor mye større vil være svært avhengig av de overordnede strategier som er gjeldende og som da skal styre hvert enkelt tiltak som blir iverksatt. Uten en veldig tydelig strategi og ansvarsfordeling for finansiering og arbeidsoppgave som erkjennes av alle relevanter aktører så vil det være en betydelig risiko for at man ikke når det målet man har satt seg.

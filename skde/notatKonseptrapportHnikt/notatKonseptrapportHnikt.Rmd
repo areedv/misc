@@ -1,0 +1,109 @@
+---
+title: 'Notat: HNIKT som leverandør av programvare for nasjonale medisinske kvalitetsregistre'
+author: "SKDE"
+date: "27\\. juni 2017"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+Til eierdirektør Helse-Nord RHF
+
+Fra SKDE
+
+
+## Bakgrunn
+Siden 2006 har HNIKT bidratt betydelig i utvikling av programvare og
+etablering av teknologisk infrastruktur for nasjonale og lokale
+medisinske kvalitetsregistre. Produktene det her er snakk om er i
+hovedsak _OpenQReg_ som er en plattform for datafangst (data inn),
+_Rapporteket_ som er en resultattjeneste (data ut) og _helseregister.no_
+som er en nasjonalt tilgjengelig tjeneste og portal for de foran nevnte
+samt tilhørende merkantile og avtalemessige tjenester. Per juni 2017 er
+det levert 12 nasjonale registre på _OpenQReg_ (i tillegge til en rekke
+lokale/HN-interne registre og fagapplikasjoner), 15 nasjonale registre
+benytter Rapporteket som resultattjeneste (i tillegg til en rekke
+lokale/HN-interne) og _helseregister.no_ leverer pålogging til samtlige
+nasjonale medisinske kvalitetsregistre. Alle fire helseregioner i Norge
+er på "kundelisten" og er således avhengig av HNIKT for å ivareta en
+fungerende teknologisk infrastruktur.
+
+Tiden fra 2009 og fram til nå har vært preget av ny-etablering av
+nasjonale kvalitetsregistre og etablering av programvare for fangst av
+data har derfor hatt et sterkt fokus. En betydelig andel av leveransene
+fra HNIKT i denne sammenhengen har således vært knyttet til utvikling av
+registre på _OpenQReg_. Utviklingsaktiviteten har vært utført av en
+svært kompetent gruppe på 3-4 personer. Etterspørselen etter nyutvikling
+og videreutvikling har alltid vært større enn gruppens kapasitet,
+eksempelvis er det gitt finansiering på oppdrag fra NIKT HF som det ennå
+etter to år ikke er levert på. Siden oppstart av FIKS programmet i 2011
+har det vært liten eller ingen vilje til å øke leveringskapasiteten i
+form av å utvide antall ansatte som utvikler programvare basert på
+_OpenQReg_.
+
+
+## Situasjon
+Til tross for at HNIKT over mange år har levert en betydelig mengde
+sentral og viktig programvare og teknologisk infrastruktur for
+kvalitetsregisterfeltet nasjonalt og lokalt kan det nå synes som om man
+ønsker å redusere eller helt avvikle denne aktiviteten. Begrunnelsen for
+dette er i hovedsak en mangel på et korresponderende formelt oppdrag fra
+eier og at det da ikke finnes en nødvendig grunnlagsfinansiering for å
+opprettholde aktivitet slik den har vært drevet. I en egen utredning fra
+HNIKT per juni 2017 ("Konseptrapporten") er det angitt ulike scenarier
+for videre arbeid med tilhørende behov for grunnlagsfinansiering. Et av
+alternativene er en styrt avvikling der eksisterende _OpenQReg_-registre
+flyttes til andre plattformer.
+
+I løpet av første halvår 2017 er det kommet to oppsigelser fra
+utviklergruppens fire medlemmer. HNIKT ønsker ikke å ansette nye men
+heller dekke opp kapasitetsbehov gjennom intern og ekstern innleie.
+Oppdragene som utføres av utviklergruppen rundt _OpenQReg_ er
+sammensatte og har høye krav til spesialisering og lar seg derfor
+vanskelig dekke av "flyktig" arbeidskraft.
+
+Ved inngangen av september er altså denne utviklergruppen på kort tid
+redusert fra fire til to personer. Situasjonen representerer da ikke
+bare en betydelig drenering av kapasitet og kunnskap men også en risiko
+for at gjenværende medlemmer ser seg om etter andre ting å holde på med.
+
+På bakgrunn av innhold i HNIKTs "konseptrapport" ble det på initiativ
+fra SKDE avholdt møte den torsdag 22. juni 2017 mellom AD i HNIKT,
+Oddbjørn Skei, og direktør i SKDE, Barthold Vonen (tilstede i møtet var
+også Anders Høydalsvik fra HNIKT og Eva Stensland fra SKDE).
+SKDE uttrykte sin bekymring for de store konsekvensene en eventuelt
+styrt avvikling av HNIKTs aktivitet som leverandør av tekniske løsninger
+for medisinske kvalitetsregistre kan få (konsept 3 i rapporten). En slik
+løsning vil også få betydning for resultattjenesten Rapporteket, som er
+utviklet som et samarbeid mellom HNIKT og SKDE. SKDE kommenterte i dette
+møtet også bilde 16 i konseptrapporten ("Økonomiutvikling 3 siste år -
+sentrale poster"). Her vises en reduksjon i tilgjengelige regionale
+SKDE-midler fra over 2 mill NOK i 2016 til 0 NOK i 2017. Av de
+tilgjengelige midlene i 2016 ble imidlertid kun 250 000 NOK benyttet til
+programvareutvikling av HNIKT. Dette framkommer ikke av figuren, og har
+betydning for de midler som ble avsatt i SKDE i 2017. Årsaken til et
+lavt forbruk av SKDE-midler i 2016 er blant annet lav aktivitet på
+utvikling av lokale kvalitetsregistre i Helse Nord og at HNIKT ikke
+lengre er i stand til å motta slike midler forskuddsvis og uavhengig av
+timeforbruk slik ordningen rundt SKDE-midlene tidligere har vært praktisert.
+
+AD i HNIKT ønsker å legge konseptrapporten for direktørmøtet i august.
+HNIKT ønsker å videreutvikle konsept 2 i rapporten (robust team for å møte framtidige krav) til dette møtet, og SKDE vil bistå i arbeidet. Det vil i denne
+sammenheng være viktig å utvikle bærekraftige prismodeller for tjenesten for å ivareta alle de deler av organisasjonen som kreves for å kunne levere et godt produkt. Videre vil det også være viktig å rekruttere fagfolk for å ivareta nødvendig kontinuitet og for å styrke utviklerteamet.
+
+
+## Problembeskrivelse
+De nasjonale kvalitetsregistrene er allerede avhengig av leveranser fra
+HNIKT, både etablering av nye registre, men særlig og i økende grad
+vedlikehold og videreutvikling av eksisterende registre. Det finnes per
+juni 2017 15 nasjonale medisinske kvalitetsregistre som ennå ikke har
+fått etablert godkjente teknologiske løsninger for datafangst.
+"Konseptrapporten" oppstiller et alternativ for styrt avvikling av
+aktiviteten og da er det veldig mange registre som må flyttes til andre
+plattformer (Hemit er i tilfelle den mest nærliggende aktøren å gå til).
+En slik situasjon vil være svært ressurskrevende både for registrene
+selv, for Nasjonalt servicemiljø for medisinske kvalitetsregistre og for
+RHFene som har ansvar for finansiering av de nasjonale registrene.
+Andre aktuelle leverandører av slike tjenester har allerede ventetid for
+oppdrag, og en flytting og reetablering av opp mot 20 registre (lokale
+inkludert) vil ha et uakseptabelt kostnads- og tidsperspektiv.
