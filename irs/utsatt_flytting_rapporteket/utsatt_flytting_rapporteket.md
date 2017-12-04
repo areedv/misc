@@ -1,3 +1,9 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+  word_document: default
+---
 # Rapporteket: flytting av teknisk drift fra HNIKT til NHN
 
 Sak (orientering?) til møte i IRS torsdag 15. desember 2017.
