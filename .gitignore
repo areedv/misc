@@ -4,3 +4,4 @@
 *.dcf
 *.html
 *.pdf
+**/*.log
