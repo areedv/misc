@@ -19,7 +19,7 @@ ikke-interaktive resultater kan skje til alle som har en epostadresse.
 
 Rapporteket består i hovedsak av programvare som gir et funksjonelt samvirke
 mellom en presentasjons- og BI-løsning og statistikkverktøyet R. I sin
-nåværende form krever dette spesiell tekniks kompetanse både av hensyn til
+nåværende form krever dette spesiell teknisk kompetanse både av hensyn til
 teknisk drift og til å understøtte de som produsere innhold i
 resultattjenesten. Dette fungerer godt og etter hensikten fordi Rapporteket
 er etablert og videreutviklet i et samarbeid mellom HNIKT (leverandør av
@@ -28,12 +28,12 @@ teknisk drift av Rapporteket skal overføres til Norsk Helsenett vil derfor
 være vanskelig å innfri (se vedlagt sak xx/zz i FMK NIKT).
 
 Videre er det et sterkt behov for også å kunne eksponere interaktive
-resultattjenester åpnet og da basert på anonyme datasett fra registrene.
+resultattjenester åpent og da basert på anonyme datasett fra registrene.
 Med dagens oppsett av drift og funksjonalitet er dette også et behov som vil
 være vanskelig å innfri.
 
 I det følgende foreslås det derfor en del endringer slik at Rapproteket som
-resultattjenste skal kunne svare på de over nevnte utfordringene
+resultattjenste skal kunne svare på de over nevnte utfordringene.
 
 
 ## Målsetting
