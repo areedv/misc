@@ -1,7 +1,7 @@
 ---
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
   word_document: default
 ---
 # Rapporteket: flytting av teknisk drift fra HNIKT til NHN
