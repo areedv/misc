@@ -23,7 +23,7 @@ nåværende form krever dette spesiell teknisk kompetanse både av hensyn til
 teknisk drift og til å understøtte de som produsere innhold i
 resultattjenesten. Dette fungerer godt og etter hensikten fordi Rapporteket
 er etablert og videreutviklet i et samarbeid mellom HNIKT (leverandør av
-teknisk utviklig og drift) og SKDE (leverandør av innhold). Et krav om at
+teknisk utvikling og drift) og SKDE (leverandør av innhold). Et krav om at
 teknisk drift av Rapporteket skal overføres til Norsk Helsenett vil derfor
 være vanskelig å innfri (se vedlagt sak xx/zz i FMK NIKT).
 
@@ -33,12 +33,12 @@ Med dagens oppsett av drift og funksjonalitet er dette også et behov som vil
 være vanskelig å innfri som en direkte leveranse fra Rapporteket.
 
 I det følgende foreslås det derfor en del endringer slik at Rapproteket som
-resultattjenste skal kunne svare på de over nevnte utfordringene.
+resultattjeneste skal kunne svare på de over nevnte utfordringene.
 
 ## Forutsetninger for gjennomføring
 Etter sirkulasjon og innspill på denne skissen etableres det en
-prosjektbeskrivelse som forelegges et eget forvaltnigsorgan for Rapporteket
-ved HNIKT. Dette forvaltningsorganet beslutter om prosjketet skal settes
+prosjektbeskrivelse som forelegges et eget forvaltningsorgan for Rapporteket
+ved HNIKT. Dette forvaltningsorganet beslutter om prosjektet skal settes
 igang eller ikke. Om prosjektet besluttes gjennomført må også finansiering
 av aktiviteten være avklart. FMK NIKT er allerede identifisert som en mulig
 finansieringskilde og ideen har allerede vært luftet der, uten lovnader men
@@ -53,27 +53,27 @@ definerer rapporter/resultater for de enkelte registre, skal uten endring
 kunne publiseres og fungere utenfor Rapporteket.
 
 Formålet med punkt 1 er å redusere arbeidsmengde og kompleksitet hos
-driftsleverandør av Rapporteket. Dette er særlig aktulet når ansvar for drift
+driftsleverandør av Rapporteket. Dette er særlig aktuelt når ansvar for drift
 flyttes fra en leverandør til en annen. Formålet med punkt 2 er å åpne for
 bruk av resultattjenesten på åpne nett (med anonyme data) for å kunne nå alle
 aktuelle målgrupper.
 
 ## Forslag til endringer
-Forlag til endringe går overordnet ut på at dagens BI-løsning basert på
+Forlag til endringer går overordnet ut på at dagens BI-løsning basert på
 _Jasper Server_ fra TIBCO erstattes av _Shiny Server_ fra RStudio. Samtidig
 overtar Servicemiljøet ansvar for "alle" oppgaver knyttet til etablering og
 strukturering av innhold i Rapporteket. De oppgaver som HNIKT står igjen med
 vil da være mer rendyrket mot teknisk drift av løsningen.
 
 ### Teknologi
-Mye av den underliggende teknologien vil bli beholdt slik den er idag. Endringe
+Mye av den underliggende teknologien vil bli beholdt slik den er idag. Endringer
 vil da bestå i utskifting av programvarekomponenter og konfigurasjon av
 samvirke mellom komponentene.
 
 #### Programvare
 _Shiny Server_ etableres som ny programvare på Rapporteket og "leveransen" fra
 denne programvaren til resultattjenesten vil i hovedsak være tallbehandling og
-presentasjon i tillegg til brukerhåndtering (autentisering og autorisajon)
+presentasjon i tillegg til brukerhåndtering (autentisering og autorisasjon)
 gjennom "standard"" metoder for integrasjon mot andre tjenester.
 _Shiny Server_ vil da erstatte eksisterende komponenter slik som
 _Jasper Serer_, serverinstans av R (_Rserve_) samt "alle" avhengigheter til
@@ -90,17 +90,17 @@ de strukturer som kreves for resultattjenesten beholdes slik den er i dag.
 
 #### Operasjonalisering og drift
 På samme måte som for _Jasper Server_ må det opprettes to separate miljø for
-_Shiny Server_, TEST og PRODUKSJON. Innledingsvis vil det være tilstrekkelig
+_Shiny Server_, TEST og PRODUKSJON. Innledningsvis vil det være tilstrekkelig
 en bare TEST. Det vil da være behov for etablering av én ny server på
 Rapporteket hvor _Shiny Server_ kan kjøre. Programvaren vil da finnes som
 en installasjonspakke spesifikk for serverens arkitektur og operativsystem.
 
 I starten vil det antagelig være behov for en hel del prøving og feiling.
 RStudio tilbyr en 45 dager lang prøveperiode på all funksjonalitet i
-_Shiny Server_ hvoretter noe (eller all?) funskjonalitet opphører å fungere
+_Shiny Server_ hvoretter noe (eller all?) funksjonalitet opphører å fungere
 inntil en gyldig lisens er etablert. I en innledende fase vil man også måtte
 vurdere om produktet lar seg benytte eller ikke, og om man for denne delen av
-prosjektet trenger lengre tid så må det (om mulig) i så fall avtales spesietlt
+prosjektet trenger lengre tid så må det (om mulig) i så fall avtales spesielt
 med RStudio.
 
 Av hensyn til en fornuftig innfasing av nye komponenter bør det være en tid med
@@ -119,7 +119,7 @@ regulære møter hver 14. dag.
 
 ## Plan
 På dette stadiet er aktivitetene vanskelig å tidfeste, men omfang er forsøkt
-anslått. Det vil sikkert være behov for å kopletterer og detaljere denne lista.
+anslått. Det vil sikkert være behov for å komplettere og detaljere denne lista.
 
 |Aktivitet|Ansvar|Omfang/varighet (dager)|
 |:---|:---|---:|
@@ -142,7 +142,7 @@ anslått. Det vil sikkert være behov for å kopletterer og detaljere denne list
 
 ## Kostnader
 Timeforbruk hos HNIKT må dekkes inn. Omfang vil ikke være mulig å angi før
-lista over aktiviet er mer komplett, kvalitetssikret og detljert. Timeprisen
+lista over aktivitet er mer komplett, kvalitetssikret og detaljert. Timeprisen
 ligger på ca. 900 kr (sjekk).
 
 Kostnad for teknisk infrastruktur (server og nett) er ukjent, men vil muligens
