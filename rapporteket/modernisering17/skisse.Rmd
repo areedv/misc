@@ -3,6 +3,7 @@ title: "Skisse av aktiviteter og plan for modernisering av Rapporteket"
 author: "Are Edvardsen, SKDE"
 date: "12\\. desember 2017"
 output:
+  word_document: default
   pdf_document: default
   html_document: default
 ---
