@@ -1,7 +1,7 @@
 ---
-title: "Skisse av aktiviet aktiviteter og plan for modernisering av Rapporteket"
+title: "Skisse av aktiviteter og plan for modernisering av Rapporteket"
 author: "Are Edvardsen, SKDE"
-date: "30\\. november 2017"
+date: "12\\. desember 2017"
 output: html_document
 ---
 
@@ -30,32 +30,134 @@ være vanskelig å innfri (se vedlagt sak xx/zz i FMK NIKT).
 Videre er det et sterkt behov for også å kunne eksponere interaktive
 resultattjenester åpent og da basert på anonyme datasett fra registrene.
 Med dagens oppsett av drift og funksjonalitet er dette også et behov som vil
-være vanskelig å innfri.
+være vanskelig å innfri som en direkte leveranse fra Rapporteket.
 
 I det følgende foreslås det derfor en del endringer slik at Rapproteket som
 resultattjenste skal kunne svare på de over nevnte utfordringene.
 
+## Forutsetninger for gjennomføring
+Etter sirkulasjon og innspill på denne skissen etableres det en
+prosjektbeskrivelse som forelegges et eget forvaltnigsorgan for Rapporteket
+ved HNIKT. Dette forvaltningsorganet beslutter om prosjketet skal settes
+igang eller ikke. Om prosjektet besluttes gjennomført må også finansiering
+av aktiviteten være avklart. FMK NIKT er allerede identifisert som en mulig
+finansieringskilde og ideen har allerede vært luftet der, uten lovnader men
+med positive tilbakemeldinger.
 
 ## Målsetting
+Foreslått endring av Rapporteket vil ha følgende målsetting:
 
-## Forslag til aktivitet og endringer
+1. enklere teknisk drift og videreutvikling, og
+2. innhold i Rapporteket, det vil si logisk organiserte pakker av kode som
+definerer rapporter/resultater for de enkelte registre, skal uten endring
+kunne publiseres og fungere utenfor Rapporteket.
+
+Formålet med punkt 1 er å redusere arbeidsmengde og kompleksitet hos
+driftsleverandør av Rapporteket. Dette er særlig aktulet når ansvar for drift
+flyttes fra en leverandør til en annen. Formålet med punkt 2 er å åpne for
+bruk av resultattjenesten på åpne nett (med anonyme data) for å kunne nå alle
+aktuelle målgrupper.
+
+## Forslag til endringer
+Forlag til endringe går overordnet ut på at dagens BI-løsning basert på
+_Jasper Server_ fra TIBCO erstattes av _Shiny Server_ fra RStudio. Samtidig
+overtar Servicemiljøet ansvar for "alle" oppgaver knyttet til etablering og
+strukturering av innhold i Rapporteket. De oppgaver som HNIKT står igjen med
+vil da være mer rendyrket mot teknisk drift av løsningen.
 
 ### Teknologi
+Mye av den underliggende teknologien vil bli beholdt slik den er idag. Endringe
+vil da bestå i utskifting av programvarekomponenter og konfigurasjon av
+samvirke mellom komponentene.
+
+#### Programvare
+_Shiny Server_ etableres som ny programvare på Rapporteket og "leveransen" fra
+denne programvaren til resultattjenesten vil i hovedsak være tallbehandling og
+presentasjon i tillegg til brukerhåndtering (autentisering og autorisajon)
+gjennom "standard"" metoder for integrasjon mot andre tjenester.
+_Shiny Server_ vil da erstatte eksisterende komponenter slik som
+_Jasper Serer_, serverinstans av R (_Rserve_) samt "alle" avhengigheter til
+øvrige system-bibliotek og -pakker som idag er avhengig av manuell håndtering
+(_e.g._ utviklingsbiblioteker for ulike programmeringsspråk, R-pakker)
+
+Relevant teknisk dokumentasjon:
+[Generell oversikt](https://www.rstudio.com/products/shiny-server-pro/),
+[Admin Guide](http://docs.rstudio.com/shiny-server/).
 
 #### Datagrunnlag: transformasjon og flyt
+Flyt av data fra registrene til Rapporteket og omforming av slike data til
+de strukturer som kreves for resultattjenesten beholdes slik den er i dag.
 
 #### Operasjonalisering og drift
+På samme måte som for _Jasper Server_ må det opprettes to separate miljø for
+_Shiny Server_, TEST og PRODUKSJON. Innledingsvis vil det være tilstrekkelig
+en bare TEST. Det vil da være behov for etablering av én ny server på
+Rapporteket hvor _Shiny Server_ kan kjøre. Programvaren vil da finnes som
+en installasjonspakke spesifikk for serverens arkitektur og operativsystem.
+
+I starten vil det antagelig være behov for en hel del prøving og feiling.
+RStudio tilbyr en 45 dager lang prøveperiode på all funksjonalitet i
+_Shiny Server_ hvoretter noe (eller all?) funskjonalitet opphører å fungere
+inntil en gyldig lisens er etablert. I en innledende fase vil man også måtte
+vurdere om produktet lar seg benytte eller ikke, og om man for denne delen av
+prosjektet trenger lengre tid så må det (om mulig) i så fall avtales spesietlt
+med RStudio.
+
+Av hensyn til en fornuftig innfasing av nye komponenter bør det være en tid med
+overlapp med utgående komponenter. Det vil da være et tidsvindu fram til
+årsskiftet 2018/19 hvor både _Jasper Server_ og _Shiny Server_ vil være
+tilgjengelig på Rapporteket.
 
 ### Organisering
+HNIKT etablerer en egen "prosjektledelse" for anskaffelse (i ulike faser) og
+innfasing av _Shiny Server_ på Rapporteket. SKDE etablerer en egen
+"prosjektledelse" for testing av teknisk innfasing, etablering av ny struktur
+og innhold på _Shiny Server_ samt overføring av eksisterende innhold fra
+_Jasper Server_. Koordinering mellom HNIKT og SKDE foregår i eksisterende
+regulære møter hver 14. dag.
+
 
 ## Plan
+På dette stadiet er aktivitetene vanskelig å tidfeste, men omfang er forsøkt
+anslått. Det vil sikkert være behov for å kopletterer og detaljere denne lista.
+
+|Aktivitet|Ansvar|Omfang/varighet (dager)|
+|:---|:---|---:|
+|Planlegging og arkitektur|HNIKT|10|
+|Server og nettverk|HNIKT|1|
+|Installasjon|HNIKT|1|
+|Generell konfigurasjon|HNIKT|2|
+|Integrasjon brukerstyring|HNIKT|3|
+|Teknisk test|HNIKT|1|
+|Lisens/avtaler|HNIKT|3|
+|Merkantil endring|HNIKT|5|
+|Teknisk dokumentasjon|HNIKT|10|
+|Funksjonell test|HNIKT/SKDE|5|
+|ROS|HNNIKT/SKDE|5|
+|Struktur/navigasjon for rapporter i Shiny|SKDE|10|
+|1. testregister (Intensiv)|SKDE|2|
+|Shinyfisering eksisterende registre|SKDE|100|
+|Portering av HNIKT-rapporter|SKDE|30|
+|Dokumentasjon|SKDE|10|
 
 ## Kostnader
+Timeforbruk hos HNIKT må dekkes inn. Omfang vil ikke være mulig å angi før
+lista over aktiviet er mer komplett, kvalitetssikret og detljert. Timeprisen
+ligger på ca. 900 kr (sjekk).
 
-### Ytre forhold
+Kostnad for teknisk infrastruktur (server og nett) er ukjent, men vil muligens
+inngå som regulær aktivitet innen helseregister.no/webdrift (?)
 
-### Nye komponenter
+En normal lisens for _Shiny Server Pro_ er angitt til $ 10.000 per server og år
+for 20 samtidige brukere. For ytterliger 20 samtidige brukere er kostnaden
+oppgitt til $ 5000. Kreftregisteret har forhandlet fram en akademisk lisens for
+_Shiny Server Pro_ og det er kan være at HNIKT kan få til noe tilsvarende.
 
-### Utgående komponenter
+Lisenskostnaden for _Jasper Server_ for TEST og PRODUKSJON og for et ubegrenset
+antall brukere ligger på ca kr 600.000 per år (sjekk). Denne kostnaden vil ved
+innføring av _Shiny Server Pro_ utgå fra og med 2019.
 
-### Overgangsfase
+I en overgangsfase fra innføring av _Shiny Server_ og ut 2018 vil det da påløpe
+lisenskostnader for for både _Shiny Server_ og _Jasper Server_ og det er
+sannsynlig at dette må tas høyde for enten i et eventuelt prosjekt eller i
+kostnadsmodellen for helseregister.no/webdrift.
