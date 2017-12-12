@@ -1,10 +1,10 @@
 ---
 title: 'Notat: HNIKT som leverandør av programvare for nasjonale medisinske kvalitetsregistre'
 author: "SKDE"
-date: "27\\. juni 2017"
+date: "27\. juni 2017"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 Til eierdirektør Helse-Nord RHF
