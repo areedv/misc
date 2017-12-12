@@ -1,0 +1,78 @@
+---
+title: 'Hjelp og støtte: IKT'
+author: "Are Edvardsen, SKDE"
+date: "10\\. juli, 2017"
+output: html_document
+---
+
+Forslag til tekst IKT under (den nye) menyen "Hjelp og støtte". Mye av den [opprinnelige teksten](https://www.kvalitetsregistre.no/ikt) er beholdt, men rekkefølgend er endret og noe av teksten er justert. Noe av den opprinnelige teksten er tatt ut og erstattet med lenker til tilsvarende informasjon på [kvalitetsregistre.no](https://www.kvalitetsregistre.no/).
+
+---
+
+## IKT
+
+### Innledning
+For et moderne register vil IKT være nødvendig for å ivareta relevante oppgaver slik som fangst og oppbevaring av data samt analyse og presentasjon av resultater. Det er mange fellestrekk mellom de nasjonale medisinske kvalitetsregistrene, men også ulikheter. Mange av IKT-verktøyene vil derfor være de samme for alle registre, men hvert enkelt register vil også ha behov for å utvikle egne og spesialtilpassede IKT-verktøy. Å etablere nye verktøy kan være en møysommelig oppgave; man trenger som regel noen forsøk før man blir fornøyd. Prosessen oppleves gjene som arbeidskrevende fordi man, naturlig nok, ønsker å komme i gang med selve registerjobben så raskt som mulig.
+
+### Vanlige IKT-behov ved registerarbeid
+Her er noen eksempler på generelle behov og hvordan disse ivaretas av IKT-verktøy i registrene:
+
+#### Fangst av data
+- oversiktlige og interaktive registreingsskjema som viser/skjuler felter basert på logisk sammenheng mellom disse for en effektiv manuell registrering av data
+- validering/kontroll ved registrering for å sikre best mulig datakvalitet
+- hente data fra andre systemer for å unngå dobbeltregistrering
+- oppdatert og god dokumentasjon av registervariabler 
+
+#### Adgangskontroll og kommunikasjon
+- tilby sikker identifisering og adgangskontroll for personer som bruker registeret
+- loggføring av aktivitet for seinere evaluering og sporing
+- sikker transport av registerdata, eksempelvis mellom brukere og register 
+
+#### Lagring
+- rutinemessig sikkerhetskopiering slik at risiko for tap av data blir mindre
+- sentralisert lagring slik at relevante data og resultater er lett tilgjengelig for andre tekniske systemer og målgrupper
+
+#### Resultatformidling
+- tilrettelegge for tilgang, presentasjon og eksport av registerdata
+- tilby statisitkk- og analyseverktøy for automatisert og interaktiv fremstilling av resultater fra registrene
+
+
+### Krav til IKT-verktøy
+Teknisk infrastruktur skal ivareta tilgjengelighet og sikkerhet for alle målgrupper i et gitt register (eksempelvis registermedarbeidere, sykehusledelse, myndigheter og befolkningen forøvrig). For nasjonale registre må teknisk infrastruktur ivaretas på nasjonalt nivå. I praksis betyr dette at man må benytte systemer som blant annet fungerer sammen med, men også på tvers av, relevante enheter (sykehus, fastleger, pasienter). Dette er en stor (og pågående) arbeidsoppgave som krever betydelig grad av samordning og teknisk kompetanse. En slik oppgave må ivaretas på nasjonalt nivå. For å gi et fremtidsrettet og godt tilbud må registrene benytte felles, godkjente nasjonale løsninger. Spesialordninger for hvert enkelt register vil raskt kunne resultere i et uoverkommelig teknisk ressursbehov og dermed utilstrekkelig funksjonalitet. Nasjonalt servicemiljø skal kunne gi god veiledning slik at alle kvalitetsregistre bygger på robuste og funksjonelle IKT-systemer.
+
+
+### Aktører i servicemiljøet
+
+####Fagforum for medisinske kvalitetsregistre - Nasjonal IKT
+Etter oppdrag fra Helse- og omsorgsdepartementet (HOD) skal [Fagforum for medisinske kvalitetsregistre](https://nasjonalikt.no/forumer/fagforum-medisinske-kvalitetsregistre) - [Nasjonal IKT HF](https://nasjonalikt.no/) (FMK NIKT) bidra til at det finnes et velfungerende teknisk miljø for de nasjonale kvalitetsregistrene og vurdere aktuelle IKT-løsninger. FMK tildeler også utviklingsmidler etter søknad fra leverandørene av de ulike IKT-systemer som benyttes av kvalitetsregistrene. All kontakt med FMK NIKT skjer gjennom det nasjonale servicemiljøet.
+
+### Leverandører
+Tabellen under angir ulike IKT-system og leverandørene av disse.
+ 
+|System | Egenskap | Leverandør | Kontakt|
+|:---|:---|:---|:---|
+|eReg | Fangst av data, enkel rapportering | Oslo Universitetssykehus | <fagsenter-kvalitetsregistre@ous-hf.no>|
+|MRS | Fangst av data, enkel rapportering | Helse Midt IT (Hemit) | <John.Petter.Skjetne@hemit.no> |
+|OpenQReg | Fangst av data, enkel rapportering | Helse Nord IKT | <team-java-one@hnikt.no> |
+|Rapporteket | Resultattjenester | Helse Nord IKT | <team-java-one@hnikt.no> |
+|MRS-Resultat | Resultattjenester | Helse Midt IT (Hemit) | <John.Petter.Skjetne@hemit.no> |
+
+Alle systemene representerer en basis/plattform som hvert enkelt register bygger egen registerfunksjonalitet på, i et samarbeid med respektive leverandører.
+
+#### eReg
+[eReg](https://www.kvalitetsregistre.no/sites/default/files/ereg_informasjon.pdf) er en elektronisk løsning for opprettelse og drift (bruk) av lokale, regionale og nasjonale registre. Løsningen er en av tre godkjente, nasjonale plattformer som skiller seg noe fra de andre ved at den består av en lokal løsning ute på HFene som brukes i deres daglige arbeid og som deretter sender nasjonal informasjon til en nasjonal instans av registeret. I noen tilfeller sendes data fra en lokal eReg løsning til en sentral MRS løsning (Hjertekirurgi).
+
+#### MRS
+[MRS](https://www.kvalitetsregistre.no/sites/default/files/mrs.pdf) ble utviklet for Hjerneslagsregisteret og Hjerteinfarktregisteret på begynnelsen av 2000-tallet. Nå leverer HEMIT (Helse Midt-Norges egen IT-enhet) register til alle Helseregioner på MRS plattform.
+
+#### OpenQReg
+__her må det stå noe...__
+
+#### Rapporteket
+[Rapporteket](https://www.kvalitetsregistre.no/artikkel/rapporteket) er en resulattjeneste for utvikling og bruk av rapporter basert på data i registrene. Tjenesten kan benyttes både interaktivt og for rutinemessig utsending av resultater og rapporter fra registrene.
+
+#### MRS-Resultat
+__her må det stå noe...__
+
+#### Drift
+Programvare som ligger bak IKT-systemene over utgjør, med noen unntak for eReg, nasjonalt sentraliserte tjenester som driftes av Norsk Helsenett og Helse Nord IKT på vegne av det foretaket som er ansvarlig for registeret ([databehandlingsansvarlig](https://www.kvalitetsregistre.no/databehandlingsansvarlig#idx-0)). Databehandlingsansvarlig foretak er har ansvar for god og riktig drift og omfatter blant annet etablering og oppfølginig av drifts- og [databehandleravtaler](https://www.kvalitetsregistre.no/databehandlingsansvarlig#idx-0) (__her mangler det nok litt på våre jus- og personversider__) mot driftsleverandøren(e).
