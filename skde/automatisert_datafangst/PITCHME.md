@@ -1,15 +1,12 @@
-Tilbakemelding fra Nasjonalt servicemiljø/SKDE
-========================================================
+# Tilbakemelding fra Nasjonalt servicemiljø/SKDE
 author: Are Edvardsen, Eva Stensland
 date: Gardermoen, onsdag 28. februar 2018
 autosize: true
 css: bootstrap.css
 
+---
 
-(Egne) Forutsetninger
-========================================================
-class: blockquote
-
+#(Egne) Forutsetninger
 Utførende enheter:
 
 - Servicemiljøet, fordelt på 4 regionale helseforetak
