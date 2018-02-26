@@ -1,4 +1,6 @@
-## Tilbakemelding fra Nasjonalt servicemiljø/SKDE
+### Tilbakemelding fra Nasjonalt servicemiljø/SKDE
+Gardermoen 28. februar 2018
+Eva Stensland/Are Edvardsen
 
 ---
 
@@ -6,7 +8,6 @@
 Utførende enheter:
 - Servicemiljøet, fordelt på 4 regionale helseforetak
 - I alt 10 databehandlingsansvarlige (selvstendige juridiske enheter) for de 54 nasjonale kvalitetsregistrene
-
 (Operativt) Styrende enheter:
 - (interregional styringsgruppe)
 - AD-møtet
