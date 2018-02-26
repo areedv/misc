@@ -53,6 +53,7 @@ Bidrag fra NSMK/SKDE: metadata
 - (Nødvendig) Berikelse av metadata(felter)
 - Bistå implementering for alle kvalitetsregistre
 
+
 > Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler
 
 
