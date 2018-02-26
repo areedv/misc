@@ -1,4 +1,3 @@
-theme-override : bootstrap.css
 background-color : #d9eeee;
 background-size : auto 80%
-logo : NSFMK_logo_FARGE_april_2015_72dpi_RGB.jpg
+logo : logo_nsmk.png
