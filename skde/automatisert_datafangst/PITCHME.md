@@ -1,12 +1,8 @@
 # Tilbakemelding fra Nasjonalt servicemiljø/SKDE
-author: Are Edvardsen, Eva Stensland
-date: Gardermoen, onsdag 28. februar 2018
-autosize: true
-css: bootstrap.css
 
 ---
 
-#(Egne) Forutsetninger
+## (Egne) Forutsetninger
 Utførende enheter:
 
 - Servicemiljøet, fordelt på 4 regionale helseforetak
@@ -20,9 +16,9 @@ Utførende enheter:
 
 > I praksis adskilte styringslinjer, utførelse på nasjonalt nivå bare mulig gjennom konsensus
 
+---
 
-Generelle forutsetninger for automastisk datafangs
-========================================================
+## Generelle forutsetninger for automastisk datafangs
 
 - Hvert register skal potensielt kunne fange data fra EPJ i alle helseforetak
 
@@ -32,9 +28,9 @@ Generelle forutsetninger for automastisk datafangs
 
 > Krever nasjonal styring av regionale oppsett av EPJ
 
+---
 
-Generelle forutsetninger for automastisk datafangs: utfordringer
-========================================================
+## Generelle forutsetninger for automastisk datafangs: utfordringer
 
 Spørsmål:
 
@@ -42,9 +38,10 @@ Spørsmål:
 - Hvordan skal en slik koordinering foregå?
 - Hva er tidsperspektiv i dette?
 
+---
 
-Bidrag fra NSMK/SKDE: metadata
-========================================================
+## Bidrag fra NSMK/SKDE: metadata
+
 - Piloter for metadata fra kvalitetsregister til Eutro/Nestar (HRR)
 - Avstemming mot nasjonalt system/portal (*e.g.* HealthTerm)
 - (Nødvendig) Berikelse av metadata(felter)
@@ -53,9 +50,11 @@ Bidrag fra NSMK/SKDE: metadata
 
 > Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler
 
+---
 
-Bidrag fra NSMK/SKDE: harmonisering av variabler
-========================================================
+
+## Bidrag fra NSMK/SKDE: harmonisering av variabler
+
 - Gi nasjonal oversikt over variabler i kvalitetsregistrene
 - Bidra til samordning mot felles variabeldefinisjoner
 - Bidra til å innarbeide felles/standardiserte kodeverk og begreper/terminologier
