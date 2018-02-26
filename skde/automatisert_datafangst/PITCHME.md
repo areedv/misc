@@ -1,8 +1,8 @@
-# Tilbakemelding fra Nasjonalt servicemiljø/SKDE
+## Tilbakemelding fra Nasjonalt servicemiljø/SKDE
 
 ---
 
-## (Egne) Forutsetninger
+### (Egne) Forutsetninger
 Utførende enheter:
 - Servicemiljøet, fordelt på 4 regionale helseforetak
 - I alt 10 databehandlingsansvarlige (selvstendige juridiske enheter) for de 54 nasjonale kvalitetsregistrene
