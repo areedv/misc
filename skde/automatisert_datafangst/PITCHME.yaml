@@ -1,6 +1,5 @@
 background-color : #d9eeee;
 background-size : auto 80%
-#logo : skde/automatisert_datafangst/logo_nsmk.png
-logo : https://www.kvalitetsregistre.no/sites/all/themes/kr_theme/logo.svg
+logo : skde/automatisert_datafangst/logo_nsmk.png
 theme-override : skde/automatisert_datafangst/nsmk.css
 highlight : mono-blue
