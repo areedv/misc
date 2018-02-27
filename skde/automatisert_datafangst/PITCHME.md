@@ -14,9 +14,9 @@ Eva Stensland/Are Edvardsen
 - AD-møtet
 - Direktorat(er)
 <br>
-<mark>
+```
 I praksis adskilte styringslinjer, utførelse på nasjonalt nivå bare mulig gjennom konsensus
-</mark>
+```
 ---
 
 ### Generelle forutsetninger for automastisk datafangs
