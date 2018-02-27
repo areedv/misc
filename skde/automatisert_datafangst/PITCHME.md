@@ -44,9 +44,9 @@ Eva Stensland/Are Edvardsen
 - Avstemming mot nasjonalt system/portal (*e.g.* HealthTerm)
 - (Nødvendig) Berikelse av metadata(felter)
 - Bistå implementering for alle kvalitetsregistre
-
-> Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler
-
+<mark>
+Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler
+</mark>
 ---
 
 
