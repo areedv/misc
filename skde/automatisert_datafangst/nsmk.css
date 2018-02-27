@@ -11,3 +11,8 @@ ul li{
 .reveal .slides {
     text-align: left;
 }
+
+mark {
+    background-color: #006491;
+    color: white;
+}
