@@ -51,7 +51,9 @@ Krever nasjonal styring av regionale oppsett av EPJ
 - <span style="font-size:0.9em;">Avstemming mot nasjonalt system/portal (*e.g.* HealthTerm)</span>
 - <span style="font-size:0.9em;">(Nødvendig) Berikelse av metadata(felter)</span>
 - <span style="font-size:0.9em;">Bistå implementering for alle kvalitetsregistre</span>
+
 <br>
+
 @fa[arrow-right]
 <mark>
 <span style="font-size:0.9em;">Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler</span>
@@ -61,12 +63,14 @@ Krever nasjonal styring av regionale oppsett av EPJ
 
 
 ### Bidrag fra NSMK/SKDE: harmonisering av variabler
-- Gi nasjonal oversikt over variabler i kvalitetsregistrene
-- Bidra til samordning mot felles variabeldefinisjoner
-- Bidra til å innarbeide felles/standardiserte kodeverk og begreper/terminologier
-- Bidra til etablering/bruk av felles informasjonsmodeller som variabler kan "pakkes inn i"
+- <span style="font-size:0.9em;">Gi nasjonal oversikt over variabler i kvalitetsregistrene</span>
+- <span style="font-size:0.9em;">Bidra til samordning mot felles variabeldefinisjoner</span>
+- <span style="font-size:0.9em;">Bidra til å innarbeide felles/standardiserte kodeverk og begreper/terminologier</span>
+- <span style="font-size:0.9em;">Bidra til etablering/bruk av felles informasjonsmodeller som variabler kan "pakkes inn i"</span>
+
 <br>
+
 @fa[arrow-right]
 <mark>
-Målet er entydig utveksling av informasjon mellom system og mennesker samt automatisert mellom systemer
+<span style="font-size:0.9em;">Målet er entydig utveksling av informasjon mellom system og mennesker samt automatisert mellom systemer</span>
 </mark>
