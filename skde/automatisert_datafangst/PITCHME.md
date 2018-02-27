@@ -47,14 +47,14 @@ Krever nasjonal styring av regionale oppsett av EPJ
 ---
 
 ### Bidrag fra NSMK/SKDE: metadata
-- Piloter for metadata fra kvalitetsregister til Eutro/Nestar (HRR)
-- Avstemming mot nasjonalt system/portal (*e.g.* HealthTerm)
-- (Nødvendig) Berikelse av metadata(felter)
-- Bistå implementering for alle kvalitetsregistre
+- <span style="font-size:0.9em;">Piloter for metadata fra kvalitetsregister til Eutro/Nestar (HRR)</span>
+- <span style="font-size:0.9em;">Avstemming mot nasjonalt system/portal (*e.g.* HealthTerm)</span>
+- <span style="font-size:0.9em;">(Nødvendig) Berikelse av metadata(felter)</span>
+- <span style="font-size:0.9em;">Bistå implementering for alle kvalitetsregistre</span>
 <br>
 @fa[arrow-right]
 <mark>
-<span style="font-size:0.6em;">Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler</span>
+<span style="font-size:0.9em;">Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler</span>
 </mark>
 
 ---
