@@ -1,17 +1,17 @@
 ### Automatisert datafangst: tilbakemelding fra Nasjonalt servicemiljø/SKDE
 Gardermoen 28. februar 2018
 <br>
-Eva Stensland/Are Edvardsen
+Eva Stensland / Are Edvardsen
 
 ---
 
-### Egne forutsetninger: utførende enheter:
+### Egne forutsetninger: utførende enheter
 - Servicemiljøet, fordelt på 4 regionale helseforetak
 - I alt 10 databehandlingsansvarlige (selvstendige juridiske enheter) for de 54 nasjonale kvalitetsregistrene
 
 ---
 
-### Egne forutsetninger: styrende enheter:
+### Egne forutsetninger: styrende enheter
 - (interregional styringsgruppe)
 - AD-møtet
 - direktorat(er)
