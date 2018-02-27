@@ -5,10 +5,10 @@ Eva Stensland/Are Edvardsen
 ---
 
 ### (Egne) Forutsetninger
-Utførende enheter:
+#### Utførende enheter:
 - Servicemiljøet, fordelt på 4 regionale helseforetak
 - I alt 10 databehandlingsansvarlige (selvstendige juridiske enheter) for de 54 nasjonale kvalitetsregistrene
-(Operativt) Styrende enheter:
+#### (Operativt) Styrende enheter:
 - (interregional styringsgruppe)
 - AD-møtet
 - Direktorat(er)
