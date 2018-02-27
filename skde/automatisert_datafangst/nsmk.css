@@ -16,3 +16,7 @@ mark {
     background-color: #006491;
     color: white;
 }
+
+html {
+    font-size: 75%;
+}
