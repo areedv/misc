@@ -13,21 +13,24 @@ Eva Stensland/Are Edvardsen
 - (interregional styringsgruppe)
 - AD-møtet
 - Direktorat(er)
-
-> I praksis adskilte styringslinjer, utførelse på nasjonalt nivå bare mulig gjennom konsensus
-
+<br>
+<mark>
+I praksis adskilte styringslinjer, utførelse på nasjonalt nivå bare mulig gjennom konsensus
+</mark>
 ---
 
 ### Generelle forutsetninger for automastisk datafangs
 
 - Hvert register skal potensielt kunne fange data fra EPJ i alle helseforetak
-
-> Må benytte samme metodikk og alle helseforetak må håndtere datautveksling likt
-
+<br>
+<mark>
+Må benytte samme metodikk og alle helseforetak må håndtere datautveksling likt
+</mark>
+<br>
 - Behov for koordinering og styring av måten EPJ-ene samhandler med andre systemer
-
-> Krever nasjonal styring av regionale oppsett av EPJ
-
+<mark>
+Krever nasjonal styring av regionale oppsett av EPJ
+</mark>
 ---
 
 ### Generelle forutsetninger for automastisk datafangs: utfordringer
@@ -56,5 +59,7 @@ Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgje
 - Bidra til samordning mot felles variabeldefinisjoner
 - Bidra til å innarbeide felles/standardiserte kodeverk og begreper/terminologier
 - Bidra til etablering/bruk av felles informasjonsmodeller som variabler kan "pakkes inn i"
-
-> Målet er entydig utveksling av informasjon mellom system og mennesker samt automatisert mellom systemer
+<br>
+<mark>
+Målet er entydig utveksling av informasjon mellom system og mennesker samt automatisert mellom systemer
+</mark>
