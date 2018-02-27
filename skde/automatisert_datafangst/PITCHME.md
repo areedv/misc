@@ -37,7 +37,7 @@ Krever nasjonal styring av regionale oppsett av EPJ
 </span>
 ---
 
-### Generelle forutsetninger for automastisk datafangs: utfordringer
+### Generelle forutsetninger for automastisk datafangst: utfordringer
 
 #### Spørsmål:
 - Hvilke nasjonale aktører (med styringrett) kan/bør koordinere regionenes arbeid med dataflyt fra/til (regionalt konsolidert) EPJ?
@@ -70,3 +70,10 @@ Krever nasjonal styring av regionale oppsett av EPJ
 <mark>
 <span style="font-size:0.9em;">Målet er entydig utveksling av informasjon mellom system og mennesker samt automatisert mellom systemer</span>
 </mark>
+
+---
+
+### NSMK/SKDE status
+- Har fått oppdrag fra IRS angående metadata og harmonisering
+- Pt store begrensninger i kapasitet
+- Oppfatter stor risiko ved at implementering skjer nå (*e.g.* Dips Arena, Helseplattformen) mens fundamentet ikke er på plass (*e.g.* felles standarder)
