@@ -14,10 +14,10 @@ Eva Stensland/Are Edvardsen
 ### Egne forutsetninger: styrende enheter:
 - (interregional styringsgruppe)
 - AD-møtet
-- Direktorat(er)
-<br>
+- direktorat(er)
+
 @fa[arrow-right]
-I praksis adskilte styringslinjer, utførelse på nasjonalt nivå bare mulig gjennom konsensus
+<mark>I praksis adskilte styringslinjer, utførelse på nasjonalt nivå bare mulig gjennom konsensus</mark>
 
 ---
 
@@ -65,8 +65,6 @@ Krever nasjonal styring av regionale oppsett av EPJ
 - <span style="font-size:0.9em;">Bidra til samordning mot felles variabeldefinisjoner</span>
 - <span style="font-size:0.9em;">Bidra til å innarbeide felles/standardiserte kodeverk og begreper/terminologier</span>
 - <span style="font-size:0.9em;">Bidra til etablering/bruk av felles informasjonsmodeller som variabler kan "pakkes inn i"</span>
-
-<br>
 
 @fa[arrow-right]
 <mark>
