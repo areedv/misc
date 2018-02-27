@@ -5,11 +5,13 @@ Eva Stensland/Are Edvardsen
 
 ---
 
-### (Egne) Forutsetninger
-#### Utførende enheter:
+### Egne forutsetninger: utførende enheter:
 - Servicemiljøet, fordelt på 4 regionale helseforetak
 - I alt 10 databehandlingsansvarlige (selvstendige juridiske enheter) for de 54 nasjonale kvalitetsregistrene
-#### (Operativt) Styrende enheter:
+
+---
+
+### Egne forutsetninger: styrende enheter:
 - (interregional styringsgruppe)
 - AD-møtet
 - Direktorat(er)
@@ -19,8 +21,7 @@ I praksis adskilte styringslinjer, utførelse på nasjonalt nivå bare mulig gje
 
 ---
 
-### Generelle forutsetninger for automastisk datafangs
-
+### Generelle forutsetninger for automastisk datafangst
 - Hvert register skal potensielt kunne fange data fra EPJ i alle helseforetak
 @fa[arrow-right]
 <mark>
@@ -48,6 +49,7 @@ Krever nasjonal styring av regionale oppsett av EPJ
 - Avstemming mot nasjonalt system/portal (*e.g.* HealthTerm)
 - (Nødvendig) Berikelse av metadata(felter)
 - Bistå implementering for alle kvalitetsregistre
+<br>
 @fa[arrow-right]
 <mark>
 Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler
@@ -60,6 +62,7 @@ Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgje
 - Bidra til samordning mot felles variabeldefinisjoner
 - Bidra til å innarbeide felles/standardiserte kodeverk og begreper/terminologier
 - Bidra til etablering/bruk av felles informasjonsmodeller som variabler kan "pakkes inn i"
+<br>
 @fa[arrow-right]
 <mark>
 Målet er entydig utveksling av informasjon mellom system og mennesker samt automatisert mellom systemer
