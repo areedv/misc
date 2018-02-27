@@ -22,6 +22,7 @@ I praksis adskilte styringslinjer, utførelse på nasjonalt nivå bare mulig gje
 ### Generelle forutsetninger for automastisk datafangs
 
 - Hvert register skal potensielt kunne fange data fra EPJ i alle helseforetak
+@fa[arrow-right]
 <br>
 <mark>
 Må benytte samme metodikk og alle helseforetak må håndtere datautveksling likt
