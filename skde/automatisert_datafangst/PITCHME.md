@@ -22,7 +22,7 @@ I praksis adskilte styringslinjer, utførelse på nasjonalt nivå bare mulig gje
 ---
 
 ### Generelle forutsetninger for automastisk datafangst
-<span style="font-size:0.6em">
+<span style="font-size:0.6em;">
 - Hvert register skal potensielt kunne fange data fra EPJ i alle helseforetak
 @fa[arrow-right]
 <mark>
@@ -54,7 +54,7 @@ Krever nasjonal styring av regionale oppsett av EPJ
 <br>
 @fa[arrow-right]
 <mark>
-Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler
+<span style="font-size:0.6em;">Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler</span>
 </mark>
 
 ---
