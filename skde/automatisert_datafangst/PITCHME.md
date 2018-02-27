@@ -1,4 +1,4 @@
-### Tilbakemelding fra Nasjonalt servicemiljø/SKDE
+### Automatisert datafangst: tilbakemelding fra Nasjonalt servicemiljø/SKDE
 Gardermoen 28. februar 2018
 <br>
 Eva Stensland/Are Edvardsen
@@ -22,6 +22,7 @@ I praksis adskilte styringslinjer, utførelse på nasjonalt nivå bare mulig gje
 ---
 
 ### Generelle forutsetninger for automastisk datafangst
+<span style="font-size:0.6em">
 - Hvert register skal potensielt kunne fange data fra EPJ i alle helseforetak
 @fa[arrow-right]
 <mark>
@@ -33,6 +34,7 @@ Må benytte samme metodikk og alle helseforetak må håndtere datautveksling lik
 <mark>
 Krever nasjonal styring av regionale oppsett av EPJ
 </mark>
+</span>
 ---
 
 ### Generelle forutsetninger for automastisk datafangs: utfordringer
@@ -54,6 +56,7 @@ Krever nasjonal styring av regionale oppsett av EPJ
 <mark>
 Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler
 </mark>
+
 ---
 
 
