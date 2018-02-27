@@ -15,8 +15,13 @@ ul li{
 mark {
     background-color: #006491;
     color: white;
+    font-size: 75%;
 }
 
 html {
     font-size: 75%;
+}
+
+p {
+  font-size: 75%;
 }
