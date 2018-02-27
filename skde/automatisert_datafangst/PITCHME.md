@@ -52,8 +52,6 @@ Krever nasjonal styring av regionale oppsett av EPJ
 - <span style="font-size:0.9em;">(Nødvendig) Berikelse av metadata(felter)</span>
 - <span style="font-size:0.9em;">Bistå implementering for alle kvalitetsregistre</span>
 
-<br>
-
 @fa[arrow-right]
 <mark>
 <span style="font-size:0.9em;">Målet er at alle nasjonale kvalitetsregistre fortløpende (automatisert) tilgjengeliggjør egne metadata til alle relevanter mottakere/portaler</span>
