@@ -1,0 +1,72 @@
+---
+title: "PROM"
+author: "Are Edvardsen, SKDE"
+date: "Fagdag for medisinske kvalitetsregistre i Helse Nord, Clarion Hotel The Edge Tromsø, 29\\. november, 2018"
+output: revealjs::revealjs_presentation
+---
+
+<style>
+.reveal section img { background:none; border:none; box-shadow:none; }
+</style>
+
+# Karius og Baktus
+
+## 
+![](fig/p1.png)
+
+# Gratis lunsj..?
+
+##
+![](fig/p2.png)
+
+##
+![](fig/a1.png)
+
+# Det e itj'nå som kjæm tå sæ sjøl...
+
+##
+![](fig/p3.png)
+
+## 
+![](fig/a2.png)
+
+# Og, enda en gang
+
+##
+![](fig/p4.png)
+
+
+##
+![](fig/a3.png)
+
+# Ferdig?
+
+##
+![](fig/p5.png)
+
+##
+![](fig/a4.png)
+
+# Og alle hjerter gleder seg...
+
+##
+![](fig/p6.png)
+
+# Alle sammen sammen
+
+## Men først
+en liten [primer](https://www.youtube.com/watch?v=3owNqV-BlfA)
+
+## 
+![](fig/pFlow.png)
+
+# Finansiering
+
+## Oppgaver, kostnad og finansieringskilde
+
+|Oppgave|Kostnad (kr)|Kilde|
+|:---|---:|:---|
+|Oppgradering plattform|?|Driftsavtale|
+|Etablering av skjema i register|?|Egen/regional/FMK NIKT|
+|Etablering av skjema i ePROMS|ca 20 000|Egen|
+|Ev lisenser|?|Egen|
